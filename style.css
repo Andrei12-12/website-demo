@@ -1,0 +1,49 @@
+/* Set a romantic background color and center everything */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #ffcccb; /* Light pink background */
+    font-family: 'Arial', sans-serif;
+}
+
+/* Center the container and style the heading */
+.container {
+    text-align: center;
+}
+
+h1 {
+    color: #d9534f; /* Romantic red color */
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Center the buttons horizontally and add spacing */
+
+
+/* Style the buttons */
+button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;  
+}
+
+#yesButton {
+    background-color: #5cb85c; /* Green for "Yes" */
+    color: white;
+}
+
+#yesButton:hover {
+    background-color: #4cae4c; /* Darker green on hover */
+}
+
+#noButton {
+    background-color: #d9534f; /* Red for "No" */
+    color: white;
+    position: relative;
+}
